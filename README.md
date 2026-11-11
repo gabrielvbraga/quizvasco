@@ -1,11 +1,13 @@
 # quizvasco
 
-Terminal quiz about Vasco da Gama, written in C. Scores are saved to a local ranking.
+Terminal quiz about Vasco da Gama, written in C. Eight questions in random order, with scores saved to a local ranking.
 
 ## Run
 
-Download `quiz.exe` from the [latest release](../../releases/latest) and run it (Windows).
+Download `quizvasco.exe` from the [latest release](../../releases/latest) and run it (Windows).
 
 ## Build from source
 
-    make
+    gcc quiz/vasco.c -o quizvasco
+
+Or just `make`. Works on Windows (MinGW), Linux, and macOS.
